@@ -31,6 +31,7 @@ func main() {
 	// setZero
 	// ค่าไม่เปลี่ยน เพราะ setZero ทำงานใน "pass by value" 
 	// ทำให้การเปลี่ยนแปลงค่าของ value ภายใน setZero ไม่มีผลกับ i ที่ถูกส่งเข้าไป.
+	fmt.Println(i)
 	setZero(i)
 	fmt.Println("i from func setZero=", i)
 

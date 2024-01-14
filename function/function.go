@@ -8,7 +8,7 @@ func hello() {
 
 // func รับค่า
 // (ตัวแปร ชนิดตัวแปร,)
-func plus(value1 int, value2 int){
+func plus(value1 , value2 int){
 	// var total int = value1+ value2
 	total := value1 + value2
 	fmt.Println("total=", total)
